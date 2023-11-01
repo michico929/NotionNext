@@ -69,7 +69,7 @@ const BLOG = {
   ],
   // 衬线字体 例如'"LXGW WenKai"'
   FONT_SERIF: [
-    // '"Bitter"',
+    // 'PMingLiU',
     'Bitter',
     '"Noto Serif SC"',
     'SimSun',

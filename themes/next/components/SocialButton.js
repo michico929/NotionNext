@@ -39,6 +39,9 @@ const SocialButton = () => {
       {BLOG.CONTACT_YOUTUBE && <a target='_blank' rel='noreferrer' title={'youtube'} href={BLOG.CONTACT_YOUTUBE} >
         <i className='fab fa-youtube transform hover:scale-125 duration-150'/>
       </a>}
+     {BLOG.CONTACT_MASTODON && <a target='_blank' rel='noreferrer' title={'mastodon'} href={BLOG.CONTACT_YOUTUBE} >
+        <i className='fab fa-mastodon transform hover:scale-125 duration-150'/>
+      </a>}
     </div>
   </div>
 }
